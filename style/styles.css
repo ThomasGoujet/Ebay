@@ -1,0 +1,100 @@
+body {
+padding: 0px;
+margin: 0px;
+background: #FFFAFA;
+display: initial;
+}
+/*--- navigation bar ---*/
+
+.navbar { 
+background: #DCDCDC; 
+}
+
+.nav-link, .navbar-brand {
+color: white;
+cursor: pointer; 
+}
+
+.nav-link {
+margin-right: 1em !important;
+} 
+
+.nav-link:hover {
+color: white; 
+}
+
+.navbar-collapse { 
+justify-content: flex-end;
+}
+
+.overlay {
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0px;
+top: 0px;
+background-color: rgba(0, 0, 0, 0.2);
+z-index: -1;
+}
+
+
+.form-signin {
+  min-height: 550px;
+}
+
+.container {
+text-align: center;
+color: grey; 
+font-size: 1rem;
+line-height: 1.5; 
+}
+
+.card-body {
+text-align: left;
+}
+
+.card-text {
+text-align: right;
+}
+
+.description .form-group .form-control input {
+border-radius: 0; 
+}
+
+.page-footer { 
+background-color: #222; 
+color: #ccc;
+padding: 60px 0 30px;
+}
+
+.footer-copyright { 
+color: #666; 
+padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+
+.description {
+left: 0;
+padding: 0 15px; 
+position: absolute; 
+top: 10%; 
+transform: none; 
+text-align: center;
+}
+
+.description, .container h1 {
+font-size: 2em;
+}
+
+.features { 
+margin: 0;
+} 
+
+}
+
+.container-inscription {
+  width: 70vw;
+  padding-bottom: 30px;
+  margin:auto;
+}
